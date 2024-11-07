@@ -1,6 +1,6 @@
 /* On the first value, I passed 0 for because array indexing in JavaScript starts at 0. */
 
-let myArray = [10, 20, 30, 40, 50];
+let myArray = [5, 10, 15, 25, 40];
 
 console.log(myArray[0]);
 
@@ -12,9 +12,9 @@ for (let i = 0; i < myArray.length; i++) { console.log(myArray[i]);
 }
 /*The new values appear at the end of the array because push() adds elements to the end. */
 
-myArray.push(60, 70, 80, 90, 100); console.log(myArray);
+myArray.push(60, 70, 75, 85, 100); console.log(myArray);
 
-/* The last three elements (100, 90, 80) were removed from the array because pop() removes the last element. */
+/* The last three elements (100, 85, 75) were removed from the array because pop() removes the last element. */
 
 myArray.pop(); myArray.pop(); myArray.pop(); console.log(myArray);
 
