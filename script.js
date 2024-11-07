@@ -18,4 +18,4 @@ myArray.push(60, 70, 80, 90, 100); console.log(myArray);
 
 myArray.pop(); myArray.pop(); myArray.pop(); console.log(myArray);
 
-let myString = "Welcome2thedungeon"; console.log(myString.length); // Output: 17
+let myString = "Hello, Dungeon"; console.log(myString.length); // Output: 17
